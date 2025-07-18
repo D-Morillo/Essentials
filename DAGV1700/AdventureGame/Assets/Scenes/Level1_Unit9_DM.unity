@@ -13287,6 +13287,10 @@ PrefabInstance:
       value: TextMeshProBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5050724872430293065, guid: 55e598f5d211e334b9fdf62edfa77f94, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050724872430293065, guid: 55e598f5d211e334b9fdf62edfa77f94, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 11400000, guid: a0387b77458134c4da2a6de4c8a446c1, type: 2}
