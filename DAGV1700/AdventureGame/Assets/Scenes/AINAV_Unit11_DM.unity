@@ -2397,6 +2397,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3728534801302850357, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
   m_PrefabInstance: {fileID: 786614545}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &574299671 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3179251140750131722, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+  m_PrefabInstance: {fileID: 786614545}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &585518805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6603615576310460423, guid: 2947a20e4b86379479620ca0d7c90bf1, type: 3}
@@ -3892,6 +3897,74 @@ PrefabInstance:
     - target: {fileID: 5026055554622690634, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
       propertyPath: m_Name
       value: Ghost (Enemy Varient - fly)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 574299671}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: a0387b77458134c4da2a6de4c8a446c1, type: 2}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: UpdateValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateText
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: IntData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: TextMeshProBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a0387b77458134c4da2a6de4c8a446c1, type: 2}
+    - target: {fileID: 8246219819726316085, guid: 38a4bee4e6670ae46967b60846962b0b, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: IntData, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
