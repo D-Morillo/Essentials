@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalGame_Unit13_DM.unity
     guid: 79d74ea8ff53a9345bd70404f2482e3e
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: bfc91c4d7152aec4ab5c74614a36f2e8
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: ea5096c0db2bf3a46a2ad58f2efb2452
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
