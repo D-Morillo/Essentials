@@ -5982,6 +5982,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2095051562}
     m_Modifications:
+    - target: {fileID: 132722637607003063, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2301030173097869893, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (8) Variant
@@ -6025,6 +6029,30 @@ PrefabInstance:
     - target: {fileID: 4922626840390707862, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2092593624}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654203443199668951, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7288,6 +7316,11 @@ PrefabInstance:
 --- !u!4 &2092593623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4922626840390707862, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
+  m_PrefabInstance: {fileID: 1670533453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2092593624 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 132722637607003063, guid: 62e787abf23c2804b8b103400125a9b1, type: 3}
   m_PrefabInstance: {fileID: 1670533453}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2095051561
