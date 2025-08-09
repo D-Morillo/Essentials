@@ -8,12 +8,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Background element
   - Water
   - UI
+  - Player
+  - 
   - Level
-  - 
-  - 
   - 
   - 'Enemies '
   - 
@@ -43,3 +43,7 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - back back
+  - middle
+  - front
+  - Layer 4
